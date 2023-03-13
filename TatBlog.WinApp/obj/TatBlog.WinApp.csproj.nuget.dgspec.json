@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ptudwnc\\TatBlog.WinApp\\TatBlog.WinApp.csproj": {}
+    "D:\\Thư mục mới (5)\\TatBlog.WinApp\\TatBlog.WinApp.csproj": {}
   },
   "projects": {
-    "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj": {
+    "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj",
+        "projectUniqueName": "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj",
         "projectName": "TatBlog.Core",
-        "projectPath": "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj",
+        "projectPath": "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj",
         "packagesPath": "C:\\Users\\dinhd\\.nuget\\packages\\",
-        "outputPath": "D:\\ptudwnc\\TatBlog.Core\\obj\\",
+        "outputPath": "D:\\Thư mục mới (5)\\TatBlog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dinhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj": {
+    "D:\\Thư mục mới (5)\\TatBlog.Data\\TatBlog.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj",
+        "projectUniqueName": "D:\\Thư mục mới (5)\\TatBlog.Data\\TatBlog.Data.csproj",
         "projectName": "TatBlog.Data",
-        "projectPath": "D:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj",
+        "projectPath": "D:\\Thư mục mới (5)\\TatBlog.Data\\TatBlog.Data.csproj",
         "packagesPath": "C:\\Users\\dinhd\\.nuget\\packages\\",
-        "outputPath": "D:\\ptudwnc\\TatBlog.Data\\obj\\",
+        "outputPath": "D:\\Thư mục mới (5)\\TatBlog.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dinhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj": {
-                "projectPath": "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj"
+              "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj": {
+                "projectPath": "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj"
               }
             }
           }
@@ -128,14 +128,14 @@
         }
       }
     },
-    "D:\\ptudwnc\\TatBlog.Services\\TatBlog.Services.csproj": {
+    "D:\\Thư mục mới (5)\\TatBlog.Services\\TatBlog.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ptudwnc\\TatBlog.Services\\TatBlog.Services.csproj",
+        "projectUniqueName": "D:\\Thư mục mới (5)\\TatBlog.Services\\TatBlog.Services.csproj",
         "projectName": "TatBlog.Services",
-        "projectPath": "D:\\ptudwnc\\TatBlog.Services\\TatBlog.Services.csproj",
+        "projectPath": "D:\\Thư mục mới (5)\\TatBlog.Services\\TatBlog.Services.csproj",
         "packagesPath": "C:\\Users\\dinhd\\.nuget\\packages\\",
-        "outputPath": "D:\\ptudwnc\\TatBlog.Services\\obj\\",
+        "outputPath": "D:\\Thư mục mới (5)\\TatBlog.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dinhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,11 +152,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj": {
-                "projectPath": "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj"
+              "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj": {
+                "projectPath": "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj"
               },
-              "D:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj": {
-                "projectPath": "D:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj"
+              "D:\\Thư mục mới (5)\\TatBlog.Data\\TatBlog.Data.csproj": {
+                "projectPath": "D:\\Thư mục mới (5)\\TatBlog.Data\\TatBlog.Data.csproj"
               }
             }
           }
@@ -196,14 +196,14 @@
         }
       }
     },
-    "D:\\ptudwnc\\TatBlog.WinApp\\TatBlog.WinApp.csproj": {
+    "D:\\Thư mục mới (5)\\TatBlog.WinApp\\TatBlog.WinApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ptudwnc\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
+        "projectUniqueName": "D:\\Thư mục mới (5)\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
         "projectName": "TatBlog.WinApp",
-        "projectPath": "D:\\ptudwnc\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
+        "projectPath": "D:\\Thư mục mới (5)\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
         "packagesPath": "C:\\Users\\dinhd\\.nuget\\packages\\",
-        "outputPath": "D:\\ptudwnc\\TatBlog.WinApp\\obj\\",
+        "outputPath": "D:\\Thư mục mới (5)\\TatBlog.WinApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dinhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -220,14 +220,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj": {
-                "projectPath": "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj"
+              "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj": {
+                "projectPath": "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj"
               },
-              "D:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj": {
-                "projectPath": "D:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj"
+              "D:\\Thư mục mới (5)\\TatBlog.Data\\TatBlog.Data.csproj": {
+                "projectPath": "D:\\Thư mục mới (5)\\TatBlog.Data\\TatBlog.Data.csproj"
               },
-              "D:\\ptudwnc\\TatBlog.Services\\TatBlog.Services.csproj": {
-                "projectPath": "D:\\ptudwnc\\TatBlog.Services\\TatBlog.Services.csproj"
+              "D:\\Thư mục mới (5)\\TatBlog.Services\\TatBlog.Services.csproj": {
+                "projectPath": "D:\\Thư mục mới (5)\\TatBlog.Services\\TatBlog.Services.csproj"
               }
             }
           }

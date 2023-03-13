@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj": {}
+    "D:\\Thư mục mới (5)\\TatBlog.Data\\TatBlog.Data.csproj": {}
   },
   "projects": {
-    "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj": {
+    "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj",
+        "projectUniqueName": "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj",
         "projectName": "TatBlog.Core",
-        "projectPath": "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj",
+        "projectPath": "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj",
         "packagesPath": "C:\\Users\\dinhd\\.nuget\\packages\\",
-        "outputPath": "D:\\ptudwnc\\TatBlog.Core\\obj\\",
+        "outputPath": "D:\\Thư mục mới (5)\\TatBlog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dinhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj": {
+    "D:\\Thư mục mới (5)\\TatBlog.Data\\TatBlog.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj",
+        "projectUniqueName": "D:\\Thư mục mới (5)\\TatBlog.Data\\TatBlog.Data.csproj",
         "projectName": "TatBlog.Data",
-        "projectPath": "D:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj",
+        "projectPath": "D:\\Thư mục mới (5)\\TatBlog.Data\\TatBlog.Data.csproj",
         "packagesPath": "C:\\Users\\dinhd\\.nuget\\packages\\",
-        "outputPath": "D:\\ptudwnc\\TatBlog.Data\\obj\\",
+        "outputPath": "D:\\Thư mục mới (5)\\TatBlog.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dinhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj": {
-                "projectPath": "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj"
+              "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj": {
+                "projectPath": "D:\\Thư mục mới (5)\\TatBlog.Core\\TatBlog.Core.csproj"
               }
             }
           }
