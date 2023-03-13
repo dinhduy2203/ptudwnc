@@ -1,0 +1,232 @@
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.csproj.AssemblyReference.cache
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.AssemblyInfoInputs.cache
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.AssemblyInfo.cs
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.csproj.CoreCompileInputs.cache
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.exe
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.deps.json
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.runtimeconfig.json
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.pdb
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Azure.Core.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Azure.Identity.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Humanizer.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.CodeDom.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Memory.Data.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Text.Json.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Core.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Data.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Services.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Core.pdb
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Data.pdb
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Services.pdb
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.csproj.CopyComplete
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\refint\TatBlog.WinApp.dll
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.pdb
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.genruntimeconfig.cache
+D:\PTUDWNC\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\ref\TatBlog.WinApp.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.exe
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.deps.json
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.runtimeconfig.json
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.pdb
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Humanizer.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Core.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Data.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Services.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Core.pdb
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Data.pdb
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Services.pdb
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.csproj.AssemblyReference.cache
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.AssemblyInfoInputs.cache
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.AssemblyInfo.cs
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.csproj.CoreCompileInputs.cache
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.csproj.CopyComplete
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\refint\TatBlog.WinApp.dll
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.pdb
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.genruntimeconfig.cache
+C:\Users\dinhd\OneDrive\Desktop\PTUDWNC\PTUDWNC\src\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\ref\TatBlog.WinApp.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.csproj.AssemblyReference.cache
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.AssemblyInfoInputs.cache
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.AssemblyInfo.cs
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.csproj.CoreCompileInputs.cache
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\refint\TatBlog.WinApp.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.pdb
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.exe
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.deps.json
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.runtimeconfig.json
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.WinApp.pdb
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Azure.Core.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Azure.Identity.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Humanizer.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.CodeDom.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Text.Json.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Core.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Data.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Services.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Core.pdb
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Data.pdb
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\TatBlog.Services.pdb
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.csproj.CopyComplete
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.genruntimeconfig.cache
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\obj\Debug\net6.0\ref\TatBlog.WinApp.dll
+D:\Thư mục mới (2)\TipsAndTricks\TatBlog.WinApp\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
