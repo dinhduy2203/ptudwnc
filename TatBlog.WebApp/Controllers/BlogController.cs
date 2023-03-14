@@ -5,6 +5,13 @@ namespace TatBlog.WebApp.Controllers
 {
     public class BlogController : Controller
     {
+
+        private readonly IBlogRepository _blogRepository;
+
+        public BlogController(IBlogRepository blogRepository)
+        {
+            _blogRepository = blogRepository;
+        }
         public IActionResult Index()
         {
             ViewBag.CurrentTime = DateTime.Now.ToString("HH:mm:ss");
