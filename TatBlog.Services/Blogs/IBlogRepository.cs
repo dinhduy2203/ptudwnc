@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using TatBlog.Core.Entities;
 using TatBlog.Core.DTO;
-using TatBlog.Core.Contracts;
 using TatBlog.Core.Constracts;
 
 namespace TatBlog.Services.Blogs
@@ -38,10 +37,6 @@ namespace TatBlog.Services.Blogs
         public Task<Tag> GetTagBySlugAsync(
             string slug,
             CancellationToken cancellationToken = default);
-        Task<IPagedList<Post>> GetPagedPostsAsync(
-        PostQuery postQuery,
-        int pageNumber = 1,
-        int pageSize = 10,
-        CancellationToken cancellationToken = default);
+
     }
 }
