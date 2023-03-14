@@ -11,17 +11,7 @@ namespace TatBlog.Data.Contexts
         public DbSet<Post> Posts { get; set; }
         public DbSet<Tag> Tags { get; set; }
 
-        //public BlogDbContext(DbContextOptions<BlogDbContext> options)
-        //    : base(options)
-        //{
-
-        //}
-
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.ApplyConfigurationsFromAssembly(
-        //        typeof(CategoryMap).Assembly);
-        //}
+        
 
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

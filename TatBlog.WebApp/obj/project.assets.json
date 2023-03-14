@@ -3304,19 +3304,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dinhd\\.nuget\\packages\\": {}
+    "C:\\Users\\dinhd\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ptudwnc\\TatBlog.WebApp\\TatBlog.WebApp.csproj",
+      "projectUniqueName": "D:\\Thư mục mới (4)\\TatBlog.WebApp\\TatBlog.WebApp.csproj",
       "projectName": "TatBlog.WebApp",
-      "projectPath": "D:\\ptudwnc\\TatBlog.WebApp\\TatBlog.WebApp.csproj",
+      "projectPath": "D:\\Thư mục mới (4)\\TatBlog.WebApp\\TatBlog.WebApp.csproj",
       "packagesPath": "C:\\Users\\dinhd\\.nuget\\packages\\",
-      "outputPath": "D:\\ptudwnc\\TatBlog.WebApp\\obj\\",
+      "outputPath": "D:\\Thư mục mới (4)\\TatBlog.WebApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\dinhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3330,14 +3335,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj": {
-              "projectPath": "D:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj"
+            "D:\\Thư mục mới (4)\\TatBlog.Core\\TatBlog.Core.csproj": {
+              "projectPath": "D:\\Thư mục mới (4)\\TatBlog.Core\\TatBlog.Core.csproj"
             },
-            "D:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj": {
-              "projectPath": "D:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj"
+            "D:\\Thư mục mới (4)\\TatBlog.Data\\TatBlog.Data.csproj": {
+              "projectPath": "D:\\Thư mục mới (4)\\TatBlog.Data\\TatBlog.Data.csproj"
             },
-            "D:\\ptudwnc\\TatBlog.Services\\TatBlog.Services.csproj": {
-              "projectPath": "D:\\ptudwnc\\TatBlog.Services\\TatBlog.Services.csproj"
+            "D:\\Thư mục mới (4)\\TatBlog.Services\\TatBlog.Services.csproj": {
+              "projectPath": "D:\\Thư mục mới (4)\\TatBlog.Services\\TatBlog.Services.csproj"
             }
           }
         }

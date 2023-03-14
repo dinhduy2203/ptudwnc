@@ -4,31 +4,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Linq.Dynamic.Core;
-using Microsoft.EntityFrameworkCore;
 using TatBlog.Core.Collections;
-using TatBlog.Core.Constracts;
+using TatBlog.Core.Contracts;
+using Microsoft.EntityFrameworkCore;
 
 
-namespace TatBlog.Services.Extentions
+namespace TatBlog.Services.Extensions
 {
     public static class PagedListExtensions
     {
         public static string GetOrderExpression(
             this IPagingParams pagingParams,
-            string defaultColumn = "ID")
+            string defaultColumn = "Id")
         {
             var column = string.IsNullOrWhiteSpace(pagingParams.SortColumn)
-                ?defaultColumn
-                :pagingParams.SortColumn;
+                ? defaultColumn
+                : pagingParams.SortColumn;
             var order = "ASC".Equals(
                 pagingParams.SortOrder, StringComparison.OrdinalIgnoreCase)
                 ? pagingParams.SortOrder : "DESC";
-            return $"{column} {order}";
+            return $"{column}  {order}";
         }
-        public static async Task<IPagedList<T>> ToPagedListAsync<T>(
-            this IQueryable<T> source,
-            IPagingParams pagingParams,
-            CancellationToken cancellationToken = default)
+
+        public static async Task<Core.Contracts.IPagedList<T>> ToPagedListAsync<T>(
+        this IQueryable<T> source,
+        IPagingParams pagingParams,
+        CancellationToken cancellationToken = default)
         {
             var totalCount = await source.CountAsync(cancellationToken);
             var items = await source
@@ -36,18 +37,20 @@ namespace TatBlog.Services.Extentions
                 .Skip((pagingParams.PageNumber - 1) * pagingParams.PageSize)
                 .Take(pagingParams.PageSize)
                 .ToListAsync(cancellationToken);
+
             return new PagedList<T>(
-                items, 
+                items,
                 pagingParams.PageNumber,
                 pagingParams.PageSize,
                 totalCount);
         }
-        public static async Task<IPagedList<T>> ToPagedListAsync<T>(
+
+        public static async Task<Core.Contracts.IPagedList<T>> ToPagedListAsync<T>(
             this IQueryable<T> source,
-            int pageNumber =1,
+            int pageNumber = 1,
             int pageSize = 10,
-            string sortColumn= "Id",
-            string sortOrder= "DESC",
+            string sortColumn = "Id",
+            string sortOrder = "DESC",
             CancellationToken cancellationToken = default)
         {
             var totalCount = await source.CountAsync(cancellationToken);
@@ -56,10 +59,9 @@ namespace TatBlog.Services.Extentions
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync(cancellationToken);
+
             return new PagedList<T>(
                 items, pageNumber, pageSize, totalCount);
-
         }
-            
     }
 }
