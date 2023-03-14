@@ -21,6 +21,11 @@ namespace TatBlog.WebApp.Controllers
             {
                 PublisheOnly = true
             };
+
+            var postsList = await _blogRepository
+                .GetPagedPostAsync(postQuery, pageNumber, pageSize);
+                ViewBar.PostQuery = postQuery;
+            return View(postsList);
         }
         
     
