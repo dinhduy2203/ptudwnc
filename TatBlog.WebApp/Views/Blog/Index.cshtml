@@ -15,9 +15,9 @@
         </h3>
     }
 
-    @foreach (var postList in Model)
+    @foreach (var PostItem in Model)
     {
-        <partial name="_PostList" model="postList" />
+        <partial name="_PostItem" model="postItem" />
     }
     <partial name="_Pager" model="@Model" />
 </div>
