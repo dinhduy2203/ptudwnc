@@ -3309,11 +3309,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Thư mục mới (7)\\TatBlog.WebApp\\TatBlog.WebApp.csproj",
+      "projectUniqueName": "D:\\Thư mục mới (3)\\TatBlog.WebApp\\TatBlog.WebApp.csproj",
       "projectName": "TatBlog.WebApp",
-      "projectPath": "D:\\Thư mục mới (7)\\TatBlog.WebApp\\TatBlog.WebApp.csproj",
+      "projectPath": "D:\\Thư mục mới (3)\\TatBlog.WebApp\\TatBlog.WebApp.csproj",
       "packagesPath": "C:\\Users\\dinhd\\.nuget\\packages\\",
-      "outputPath": "D:\\Thư mục mới (7)\\TatBlog.WebApp\\obj\\",
+      "outputPath": "D:\\Thư mục mới (3)\\TatBlog.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dinhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3330,14 +3330,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Thư mục mới (7)\\TatBlog.Core\\TatBlog.Core.csproj": {
-              "projectPath": "D:\\Thư mục mới (7)\\TatBlog.Core\\TatBlog.Core.csproj"
+            "D:\\Thư mục mới (3)\\TatBlog.Core\\TatBlog.Core.csproj": {
+              "projectPath": "D:\\Thư mục mới (3)\\TatBlog.Core\\TatBlog.Core.csproj"
             },
-            "D:\\Thư mục mới (7)\\TatBlog.Data\\TatBlog.Data.csproj": {
-              "projectPath": "D:\\Thư mục mới (7)\\TatBlog.Data\\TatBlog.Data.csproj"
+            "D:\\Thư mục mới (3)\\TatBlog.Data\\TatBlog.Data.csproj": {
+              "projectPath": "D:\\Thư mục mới (3)\\TatBlog.Data\\TatBlog.Data.csproj"
             },
-            "D:\\Thư mục mới (7)\\TatBlog.Services\\TatBlog.Services.csproj": {
-              "projectPath": "D:\\Thư mục mới (7)\\TatBlog.Services\\TatBlog.Services.csproj"
+            "D:\\Thư mục mới (3)\\TatBlog.Services\\TatBlog.Services.csproj": {
+              "projectPath": "D:\\Thư mục mới (3)\\TatBlog.Services\\TatBlog.Services.csproj"
             }
           }
         }
