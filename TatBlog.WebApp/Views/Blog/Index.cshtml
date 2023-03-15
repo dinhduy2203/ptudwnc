@@ -1,11 +1,31 @@
-﻿@{
+﻿@using TatBlog.Services.Blogs;
+@model IPagedList<Post>
+
+@{
     ViewData["PageTitle"] = "Trang chủ";
+
+    var postQuery = (ViewBag.PostQuery as PostQuery) ?? new PostQuery();
 }
+
+<div class="p-4">
+    @if (!string.IsNullOrWhiteSpace(postQuery.KeyWord))
+    {
+        <h3 class="text-primary mb-3">
+            Những bài viết chứa từ khóa '@postQuery.KeyWord'
+        </h3>
+    }
+
+    @foreach (var postList in Model)
+    {
+        <partial name="_PostList" model="postList" />
+    }
+    <partial name="_Pager" model="@Model" />
+</div>
 
 <h1>
     Đây là trang chủ
 </h1>
 
 <p>
-    Bây giờ là:@ViewBag.CurrentTime
+    Bây giờ là : @ViewBag.CurrentTime
 </p>

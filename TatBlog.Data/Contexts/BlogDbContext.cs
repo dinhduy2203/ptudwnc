@@ -1,4 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection.Emit;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using TatBlog.Core.Entities;
 using TatBlog.Data.Mappings;
 
@@ -11,19 +17,16 @@ namespace TatBlog.Data.Contexts
         public DbSet<Post> Posts { get; set; }
         public DbSet<Tag> Tags { get; set; }
 
-        
-
-        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=MSI;Database=Tatblog;Trusted_Connection=True;MultipleActiveResultSets=True;Encrypt=False");
+            optionsBuilder.UseSqlServer(@"Server=MSI;Database=Tatblog;Trusted_Connection=True;MultipleActiveResultSets=True;Encrypt=False;TrustServerCertificate=True");
 
         }
-
+        public BlogDbContext(DbContextOptions<BlogDbContext> options) : base(options)
+        { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(
-                typeof(CategoryMap).Assembly );
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(CategoryMap).Assembly);
         }
     }
 }
