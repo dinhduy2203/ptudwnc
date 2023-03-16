@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U28J7CnuOY7g3pfRQpRiJjsKxNtOt/lO/JGUxovmDefCkylztIY1z1+Vjz3VktRaQmO/sYi+xmNZXHPVuwgYIA==",
+  "dgSpecHash": "DucPGcAFcOzy0JQ88utOrMhFBSwIsQIQnhTRLXs3nslvZXuPMq1KXQFF40MGTXDSmq8yQwWMrbYWoL2zU7zR9A==",
   "success": true,
-  "projectFilePath": "D:\\Thư mục mới (6)\\TatBlog.Data\\TatBlog.Data.csproj",
+  "projectFilePath": "D:\\Thư mục mới\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dinhd\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\dinhd\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

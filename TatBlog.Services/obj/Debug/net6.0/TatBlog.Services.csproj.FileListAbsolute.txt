@@ -100,3 +100,20 @@ D:\Thư mục mới (3)\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.dll
 D:\Thư mục mới (3)\TatBlog.Services\obj\Debug\net6.0\refint\TatBlog.Services.dll
 D:\Thư mục mới (3)\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.pdb
 D:\Thư mục mới (3)\TatBlog.Services\obj\Debug\net6.0\ref\TatBlog.Services.dll
+D:\Thư mục mới\ptudwnc\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.deps.json
+D:\Thư mục mới\ptudwnc\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.dll
+D:\Thư mục mới\ptudwnc\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.pdb
+D:\Thư mục mới\ptudwnc\TatBlog.Services\bin\Debug\net6.0\TatBlog.Core.dll
+D:\Thư mục mới\ptudwnc\TatBlog.Services\bin\Debug\net6.0\TatBlog.Data.dll
+D:\Thư mục mới\ptudwnc\TatBlog.Services\bin\Debug\net6.0\TatBlog.Core.pdb
+D:\Thư mục mới\ptudwnc\TatBlog.Services\bin\Debug\net6.0\TatBlog.Data.pdb
+D:\Thư mục mới\ptudwnc\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.AssemblyReference.cache
+D:\Thư mục mới\ptudwnc\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Thư mục mới\ptudwnc\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.AssemblyInfoInputs.cache
+D:\Thư mục mới\ptudwnc\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.AssemblyInfo.cs
+D:\Thư mục mới\ptudwnc\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.CoreCompileInputs.cache
+D:\Thư mục mới\ptudwnc\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.CopyComplete
+D:\Thư mục mới\ptudwnc\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.dll
+D:\Thư mục mới\ptudwnc\TatBlog.Services\obj\Debug\net6.0\refint\TatBlog.Services.dll
+D:\Thư mục mới\ptudwnc\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.pdb
+D:\Thư mục mới\ptudwnc\TatBlog.Services\obj\Debug\net6.0\ref\TatBlog.Services.dll

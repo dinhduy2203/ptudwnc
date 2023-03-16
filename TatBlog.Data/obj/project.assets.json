@@ -3245,11 +3245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Thư mục mới (6)\\TatBlog.Data\\TatBlog.Data.csproj",
+      "projectUniqueName": "D:\\Thư mục mới\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj",
       "projectName": "TatBlog.Data",
-      "projectPath": "D:\\Thư mục mới (6)\\TatBlog.Data\\TatBlog.Data.csproj",
+      "projectPath": "D:\\Thư mục mới\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj",
       "packagesPath": "C:\\Users\\dinhd\\.nuget\\packages\\",
-      "outputPath": "D:\\Thư mục mới (6)\\TatBlog.Data\\obj\\",
+      "outputPath": "D:\\Thư mục mới\\ptudwnc\\TatBlog.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dinhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3266,8 +3266,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Thư mục mới (6)\\TatBlog.Core\\TatBlog.Core.csproj": {
-              "projectPath": "D:\\Thư mục mới (6)\\TatBlog.Core\\TatBlog.Core.csproj"
+            "D:\\Thư mục mới\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj": {
+              "projectPath": "D:\\Thư mục mới\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj"
             }
           }
         }
