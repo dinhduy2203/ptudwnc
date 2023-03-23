@@ -3328,19 +3328,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dinhd\\.nuget\\packages\\": {}
+    "C:\\Users\\dinhd\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Thư mục mới\\ptudwnc\\TatBlog.Services\\TatBlog.Services.csproj",
+      "projectUniqueName": "J:\\ptudwnc\\TatBlog.Services\\TatBlog.Services.csproj",
       "projectName": "TatBlog.Services",
-      "projectPath": "D:\\Thư mục mới\\ptudwnc\\TatBlog.Services\\TatBlog.Services.csproj",
+      "projectPath": "J:\\ptudwnc\\TatBlog.Services\\TatBlog.Services.csproj",
       "packagesPath": "C:\\Users\\dinhd\\.nuget\\packages\\",
-      "outputPath": "D:\\Thư mục mới\\ptudwnc\\TatBlog.Services\\obj\\",
+      "outputPath": "J:\\ptudwnc\\TatBlog.Services\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\dinhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3354,11 +3359,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Thư mục mới\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj": {
-              "projectPath": "D:\\Thư mục mới\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj"
+            "J:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj": {
+              "projectPath": "J:\\ptudwnc\\TatBlog.Core\\TatBlog.Core.csproj"
             },
-            "D:\\Thư mục mới\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj": {
-              "projectPath": "D:\\Thư mục mới\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj"
+            "J:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj": {
+              "projectPath": "J:\\ptudwnc\\TatBlog.Data\\TatBlog.Data.csproj"
             }
           }
         }
@@ -3394,7 +3399,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

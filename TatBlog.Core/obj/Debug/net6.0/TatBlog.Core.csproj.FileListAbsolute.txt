@@ -82,3 +82,15 @@ D:\Thư mục mới\ptudwnc\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.dll
 D:\Thư mục mới\ptudwnc\TatBlog.Core\obj\Debug\net6.0\refint\TatBlog.Core.dll
 D:\Thư mục mới\ptudwnc\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.pdb
 D:\Thư mục mới\ptudwnc\TatBlog.Core\obj\Debug\net6.0\ref\TatBlog.Core.dll
+J:\ptudwnc\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.deps.json
+J:\ptudwnc\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.dll
+J:\ptudwnc\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.pdb
+J:\ptudwnc\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.csproj.AssemblyReference.cache
+J:\ptudwnc\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+J:\ptudwnc\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.AssemblyInfoInputs.cache
+J:\ptudwnc\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.AssemblyInfo.cs
+J:\ptudwnc\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.csproj.CoreCompileInputs.cache
+J:\ptudwnc\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.dll
+J:\ptudwnc\TatBlog.Core\obj\Debug\net6.0\refint\TatBlog.Core.dll
+J:\ptudwnc\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.pdb
+J:\ptudwnc\TatBlog.Core\obj\Debug\net6.0\ref\TatBlog.Core.dll
