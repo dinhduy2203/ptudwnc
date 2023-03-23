@@ -7,6 +7,7 @@ using TatBlog.Core.Entities;
 using TatBlog.Core.DTO;
 using TatBlog.Core.Constracts;
 
+
 namespace TatBlog.Services.Blogs
 {
     public interface IBlogRepository
@@ -16,20 +17,24 @@ namespace TatBlog.Services.Blogs
             int month,
             string slug,
             CancellationToken cancellationToken = default);
-
+        Task<Post> GetPostByIdAsync(
+        int postId, bool includeDetails = false,
+        CancellationToken cancellationToken = default);
+        Task<Tag> GetTagAsync(
+        string slug, CancellationToken cancellationToken = default);
         Task<IList<Post>> GetPopularArticlesAsync(
             int numPost,
             CancellationToken cancellationToken = default);
-
         Task<bool> IsPostSlugExistedAsync(
             int postId, string slug,
             CancellationToken cancellationToken = default);
-
         Task IncreaseViewCountAsync(
             int postId,
             CancellationToken cancellationToken);
         Task<IList<CategoryItem>> GetCategoryItemsAsync(
             bool showOnMenu = false,
+            CancellationToken cancellationToken = default);
+        Task<IList<AuthorItem>> GetAuthorItemsAsync(
             CancellationToken cancellationToken = default);
         Task<IPagedList<TagItem>> GetPagedTagAsync(
             IPagingParams pagingParams,
@@ -41,6 +46,9 @@ namespace TatBlog.Services.Blogs
         PostQuery postQuery,
         int pageNumber = 1,
         int pageSize = 10,
+        CancellationToken cancellationToken = default);
+        Task<Post> CreateOrUpdatePostAsync(
+        Post post, IEnumerable<string> tags,
         CancellationToken cancellationToken = default);
     }
 }

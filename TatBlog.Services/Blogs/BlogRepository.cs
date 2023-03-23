@@ -10,6 +10,7 @@ using TatBlog.Data.Contexts;
 using TatBlog.Core.Constracts;
 using TatBlog.Services.Extentions;
 
+
 namespace TatBlog.Services.Blogs
 {
     public class BlogRepository : IBlogRepository
@@ -43,7 +44,27 @@ namespace TatBlog.Services.Blogs
             }
             return await postsQuery.FirstOrDefaultAsync(cancellationToken);
         }
+        public async Task<Post> GetPostByIdAsync(
+        int postId, bool includeDetails = false,
+        CancellationToken cancellationToken = default)
+        {
+            if (!includeDetails)
+            {
+                return await _context.Set<Post>().FindAsync(postId);
+            }
 
+            return await _context.Set<Post>()
+                .Include(x => x.Category)
+                .Include(x => x.Author)
+                .Include(x => x.Tags)
+                .FirstOrDefaultAsync(x => x.Id == postId, cancellationToken);
+        }
+        public async Task<Tag> GetTagAsync(
+        string slug, CancellationToken cancellationToken = default)
+        {
+            return await _context.Set<Tag>()
+                .FirstOrDefaultAsync(x => x.UrlSlug == slug, cancellationToken);
+        }
         public async Task<IList<Post>> GetPopularArticlesAsync(
             int numPost,
             CancellationToken cancellationToken = default)
@@ -94,6 +115,25 @@ namespace TatBlog.Services.Blogs
                     PostCount = x.Posts.Count(p => p.Published)
                 })
                 .ToListAsync(cancellationToken);
+        }
+        public async Task<IList<AuthorItem>> GetAuthorItemsAsync(
+            CancellationToken cancellationToken = default)
+        {
+            IQueryable<Author> author = _context.Set<Author>();
+            return await author
+            .OrderBy(x => x.FullName)
+            .Select(x => new AuthorItem()
+            {
+                Id = x.Id,
+                FullName = x.FullName,
+                UrlSlug = x.UrlSlug,
+                Email = x.Email,
+                ImageUrl = x.ImageUrl,
+                JoinedDate = x.JoinedDate,
+                Notes = x.Notes,
+                PostCount = x.Posts.Count(p => p.Published)
+            }).ToListAsync(cancellationToken);
+
         }
         public async Task<IPagedList<TagItem>> GetPagedTagAsync(
             IPagingParams pagingParams,
@@ -208,5 +248,51 @@ namespace TatBlog.Services.Blogs
                 nameof(Post.PostedDate), "DESC",
                 cancellationToken);
         }
+        public async Task<Post> CreateOrUpdatePostAsync(
+        Post post, IEnumerable<string> tags,
+        CancellationToken cancellationToken = default)
+        {
+            if (post.Id > 0)
+            {
+                await _context.Entry(post).Collection(x => x.Tags).LoadAsync(cancellationToken);
+            }
+            else
+            {
+                post.Tags = new List<Tag>();
+            }
+            var validTags = tags.Where(x => !string.IsNullOrWhiteSpace(x))
+                .Select(x => new
+                {
+                    Name = x,
+                    Slug = x.GenerateSlug()
+                })
+                .GroupBy(x => x.Slug)
+                .ToDictionary(g => g.Key, g => g.First().Name);
+            foreach (var k in validTags)
+            {
+                if (post.Tags.Any(x => string.Compare(x.UrlSlug, k.Key, StringComparison.InvariantCultureIgnoreCase) == 0)) continue;
+
+                var tag = await GetTagAsync(k.Key, cancellationToken) ?? new Tag()
+                {
+                    Name = k.Value,
+                    Description = k.Value,
+                    UrlSlug = k.Key
+                };
+
+                post.Tags.Add(tag);
+            }
+
+            post.Tags = post.Tags.Where(t => validTags.ContainsKey(t.UrlSlug)).ToList();
+
+            if (post.Id > 0)
+                _context.Update(post);
+            else
+                _context.Add(post);
+
+            await _context.SaveChangesAsync(cancellationToken);
+
+            return post;
+        }
+
     }
 }

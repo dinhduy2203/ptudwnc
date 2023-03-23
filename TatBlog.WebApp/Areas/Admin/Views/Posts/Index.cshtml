@@ -1,8 +1,8 @@
-﻿@model TatBlog.WebApp.Areas.Admin.Models.PostFilterModel
-
+﻿@using TatBlog.Core.Constracts
+@using TatBlog.Core.Entities
+@model TatBlog.WebApp.Areas.Admin.Models.PostFilterModel
 @{
     ViewData["PageTitle"] = "Danh sách bài viết";
-
     var postsList = ViewBag.PostsList as IPagedList<Post>;
 }
 
@@ -11,7 +11,6 @@
 </h1>
 
 <partial name="_PostFilterPane" model="Model" />
-
 @if (postsList != null && postsList.Count > 0)
 {
     <table class="table table-responsive table-striped">
@@ -35,7 +34,6 @@
                            class="text-bold">
                             @post.Title
                         </a>
-
                         <p class="text-muted">
                             @post.ShortDescription
                         </p>
