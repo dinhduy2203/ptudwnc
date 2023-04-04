@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ACtd3B2U4dyO6E4U0vZaK2cZ2MuqlRPt8Mr//WxoSkE=",
+  "Hash": "MQh6qXp/CgRol1osWjFL+VWFVutZ3jzbZ+5ooMqIGgA=",
   "Source": "TatBlog.WebApp",
   "BasePath": "_content/TatBlog.WebApp",
   "Mode": "Default",
@@ -3381,6 +3381,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\README.md"
+    },
+    {
+      "Identity": "J:\\ptudwnc\\TatBlog.WebApp\\wwwroot\\lib\\speakingurl\\LICENSE",
+      "SourceId": "TatBlog.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "J:\\ptudwnc\\TatBlog.WebApp\\wwwroot\\",
+      "BasePath": "_content/TatBlog.WebApp",
+      "RelativePath": "lib/speakingurl/LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\speakingurl\\LICENSE"
+    },
+    {
+      "Identity": "J:\\ptudwnc\\TatBlog.WebApp\\wwwroot\\lib\\speakingurl\\README.md",
+      "SourceId": "TatBlog.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "J:\\ptudwnc\\TatBlog.WebApp\\wwwroot\\",
+      "BasePath": "_content/TatBlog.WebApp",
+      "RelativePath": "lib/speakingurl/README.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\speakingurl\\README.md"
+    },
+    {
+      "Identity": "J:\\ptudwnc\\TatBlog.WebApp\\wwwroot\\lib\\speakingurl\\speakingurl.min.js",
+      "SourceId": "TatBlog.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "J:\\ptudwnc\\TatBlog.WebApp\\wwwroot\\",
+      "BasePath": "_content/TatBlog.WebApp",
+      "RelativePath": "lib/speakingurl/speakingurl.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\speakingurl\\speakingurl.min.js"
     }
   ]
 }
