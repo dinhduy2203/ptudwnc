@@ -10,6 +10,7 @@ using TatBlog.Data.Contexts;
 using TatBlog.Core.Constracts;
 using TatBlog.Services.Extentions;
 using TatBlog.Services.Extensions;
+using System.Linq.Dynamic.Core;
 
 namespace TatBlog.Services.Blogs
 {
@@ -116,25 +117,6 @@ namespace TatBlog.Services.Blogs
                 })
                 .ToListAsync(cancellationToken);
         }
-        public async Task<IList<AuthorItem>> GetAuthorItemsAsync(
-            CancellationToken cancellationToken = default)
-        {
-            IQueryable<Author> author = _context.Set<Author>();
-            return await author
-            .OrderBy(x => x.FullName)
-            .Select(x => new AuthorItem()
-            {
-                Id = x.Id,
-                FullName = x.FullName,
-                UrlSlug = x.UrlSlug,
-                Email = x.Email,
-                ImageUrl = x.ImageUrl,
-                JoinedDate = x.JoinedDate,
-                Notes = x.Notes,
-                PostCount = x.Posts.Count(p => p.Published)
-            }).ToListAsync(cancellationToken);
-
-        }
         public async Task<IPagedList<TagItem>> GetPagedTagAsync(
             IPagingParams pagingParams,
             CancellationToken cancellationToken = default)
@@ -238,15 +220,78 @@ namespace TatBlog.Services.Blogs
 
 
         public async Task<IPagedList<Post>> GetPagedPostsAsync(
-        PostQuery postQuery,
+        PostQuery condition,
         int pageNumber = 1,
         int pageSize = 10,
         CancellationToken cancellationToken = default)
         {
-            return await FilterPosts(postQuery).ToPagedListAsync(
+            return await FilterPosts(condition).ToPagedListAsync(
                 pageNumber, pageSize,
                 nameof(Post.PostedDate), "DESC",
                 cancellationToken);
+        }
+        public async Task<IPagedList<T>> GetPagedPostsAsync<T>(
+            PostQuery condition,
+            IPagingParams pagingParams,
+            Func<IQueryable<Post>, IQueryable<T>> mapper)
+        {
+            var posts = FilterPosts(condition);
+            var projectedPosts = mapper(posts);
+
+            return await projectedPosts.ToPagedListAsync(pagingParams);
+        }
+        public async Task<IPagedList<CategoryItem>> GetPagedCategoriesAsync(
+        IPagingParams pagingParams,
+        CancellationToken cancellationToken = default)
+        {
+            IQueryable<CategoryItem> categoriesQuery = _context.Set<Category>()
+              .Select(c => new CategoryItem()
+              {
+                  Id = c.Id,
+                  Description = c.Description,
+                  Name = c.Name,
+                  ShowOnMenu = c.ShowOnMenu,
+                  UrlSlug = c.UrlSlug,
+                  PostCount = c.Posts.Count(p => p.Published),
+              });
+
+            return await categoriesQuery
+              .ToPagedListAsync(pagingParams, cancellationToken);
+        }
+        public IQueryable<Category> FilterCategories(
+        CategoryQuery condition)
+        {
+            IQueryable<Category> categories = _context.Set<Category>()
+                .Include(x => x.Posts);
+            categories.ToList();
+
+            if (!string.IsNullOrWhiteSpace(condition.KeyWord))
+            {
+                categories = categories.Where(x => x.Name.Contains(condition.KeyWord));
+            }
+
+            if (condition.NotShowOnMenu)
+            {
+                categories = categories.Where(x => !x.ShowOnMenu);
+            }
+
+            return categories;
+        }
+        public async Task<IPagedList<T>> GetPagedCategoriesAsync<T>(
+        CategoryQuery query,
+        int pageNumber,
+        int pageSize,
+        Func<IQueryable<Category>, IQueryable<T>> mapper,
+        string sortColumn = "Id",
+        string sortOrder = "ASC",
+        CancellationToken cancellationToken = default)
+        {
+            IQueryable<Category> categoryFilter = FilterCategories(query);
+
+            IQueryable<T> resultQuery = mapper(categoryFilter);
+
+            return await resultQuery
+              .ToPagedListAsync<T>(pageNumber, pageSize, sortColumn, sortOrder, cancellationToken);
         }
         public async Task<Post> CreateOrUpdatePostAsync(
         Post post, IEnumerable<string> tags,

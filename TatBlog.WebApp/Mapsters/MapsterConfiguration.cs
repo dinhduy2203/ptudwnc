@@ -6,7 +6,7 @@ using TatBlog.Services.Blogs;
 
 namespace TatBlog.WebApp.Mapsters
 {
-    public class MapsterConfiguration : IRegister
+    public class MapsterConfiguration: IRegister
     {
         public void Register(TypeAdapterConfig config)
         {

@@ -34,8 +34,6 @@ namespace TatBlog.Services.Blogs
         Task<IList<CategoryItem>> GetCategoryItemsAsync(
             bool showOnMenu = false,
             CancellationToken cancellationToken = default);
-        Task<IList<AuthorItem>> GetAuthorItemsAsync(
-            CancellationToken cancellationToken = default);
         Task<IPagedList<TagItem>> GetPagedTagAsync(
             IPagingParams pagingParams,
             CancellationToken cancellationToken = default);
@@ -43,12 +41,28 @@ namespace TatBlog.Services.Blogs
             string slug,
             CancellationToken cancellationToken = default);
         Task<IPagedList<Post>> GetPagedPostsAsync(
-        PostQuery postQuery,
-        int pageNumber = 1,
-        int pageSize = 10,
-        CancellationToken cancellationToken = default);
+                PostQuery condition,
+                int pageNumber = 1,
+                int pageSize = 10,
+                CancellationToken cancellationToken = default);
+        Task<IPagedList<T>> GetPagedPostsAsync<T>(
+            PostQuery condition,
+            IPagingParams pagingParams,
+            Func<IQueryable<Post>, IQueryable<T>> mapper);
+        Task<IPagedList<CategoryItem>> GetPagedCategoriesAsync(
+            IPagingParams pagingParams,
+            CancellationToken cancellationToken = default);
+        Task<IPagedList<T>> GetPagedCategoriesAsync<T>(
+            CategoryQuery query,
+            int pageNumber,
+            int pageSize,
+            Func<IQueryable<Category>, IQueryable<T>> mapper,
+            string sortColumn = "Id",
+            string sortOrder = "ASC",
+            CancellationToken cancellationToken = default);
         Task<Post> CreateOrUpdatePostAsync(
-        Post post, IEnumerable<string> tags,
-        CancellationToken cancellationToken = default);
+            Post post, IEnumerable<string> tags,
+            CancellationToken cancellationToken = default);
+
     }
 }
