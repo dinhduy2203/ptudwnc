@@ -1,10 +1,9 @@
-﻿    
-using FluentValidation;
+﻿using FluentValidation;
 using TatBlog.WebApi.Models;
 
 namespace TatBlog.WebApi.Validations
 {
-    public class AuthorValidator : AbstractValidator<AuthorEditModel>
+    public class AuthorValidator: AbstractValidator<AuthorEditModel>
     {
         public AuthorValidator()
         {

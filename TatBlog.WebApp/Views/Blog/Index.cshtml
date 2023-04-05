@@ -15,9 +15,17 @@
         </h3>
     }
 
-    @foreach (var postItem in Model)
+    @foreach (var postList in Model)
     {
-        <partial name="_PostItem" model="postItem"/>
+        <partial name="_PostList" model="postList" />
     }
     <partial name="_Pager" model="@Model" />
 </div>
+
+<h1>
+    Đây là trang chủ
+</h1>
+
+<p>
+    Bây giờ là : @ViewBag.CurrentTime
+</p>

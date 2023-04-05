@@ -4,13 +4,14 @@ using TatBlog.Data.Contexts;
 using TatBlog.Data.Seeders;
 using TatBlog.Services.Blogs;
 using TatBlog.Services.Media;
+using TatBlog.WebApp.Middlewares;
 
 namespace TatBlog.WebApp.Extensions
 {
     public static class WebApplicationExtensions
     {
-        public static WebApplicationBuilder ConfigureMvc(
-             this WebApplicationBuilder builder)
+       public static WebApplicationBuilder ConfigureMvc(
+            this WebApplicationBuilder builder)
         {
             builder.Services.AddControllersWithViews();
             builder.Services.AddResponseCompression();
@@ -59,6 +60,8 @@ namespace TatBlog.WebApp.Extensions
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseMiddleware<UserActivityMiddleware>();
 
             return app;
 

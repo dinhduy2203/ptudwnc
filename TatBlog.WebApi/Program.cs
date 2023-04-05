@@ -1,7 +1,7 @@
 using TatBlog.WebApi.Endpoints;
 using TatBlog.WebApi.Extensions;
-using TatBlog.WebApi.Mapsters;
 using TatBlog.WebApi.Validations;
+using TatBlog.WebApi.Mapsters;
 
 var builder = WebApplication.CreateBuilder(args);
 {

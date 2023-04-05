@@ -1,12 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-namespace TatBlog.WebApp.Areas.Admin.Controllers
+﻿namespace TatBlog.WebApp.Areas.Admin.Controllers
 {
-    public class AuthorsController : Controller
+    public class AuthorsController
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
     }
 }

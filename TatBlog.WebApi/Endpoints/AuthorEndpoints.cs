@@ -126,7 +126,7 @@ namespace TatBlog.WebApi.Endpoints
            model.UrlSlug))
             {
                 return Results.Ok(ApiResponse.Fail(
-                HttpStatusCode.Conflict,
+                HttpStatusCode.Conflict, 
                 $"Slug '{model.UrlSlug}' đã được sử dụng"));
             }
             var author = mapper.Map<Author>(model);
@@ -170,12 +170,12 @@ namespace TatBlog.WebApi.Endpoints
                 $"Slug '{model.UrlSlug}' đã được sử dụng"));
             }
             var author = mapper.Map<Author>(model);
-            author.Id = id;
+                author.Id = id;
 
             return await authorRepository.AddOrUpdateAsync(author)
                 ? Results.Ok(ApiResponse.Success("Author is updated",
                 HttpStatusCode.NoContent))
-                : Results.Ok(ApiResponse.Fail(HttpStatusCode.NotFound,
+                : Results.Ok(ApiResponse.Fail(HttpStatusCode.NotFound, 
                 "Could not find author"));
         }
         private static async Task<IResult> DeleteAuthor(
@@ -185,9 +185,8 @@ namespace TatBlog.WebApi.Endpoints
             return await authorRepository.DeleteAuthorAsync(id)
                 ? Results.Ok(ApiResponse.Success("Author is deleted",
                 HttpStatusCode.NoContent))
-                : Results.Ok(ApiResponse.Fail(HttpStatusCode.NotFound,
+                : Results.Ok(ApiResponse.Fail(HttpStatusCode.NotFound, 
                 "Could not find author"));
         }
-       
     }
 }

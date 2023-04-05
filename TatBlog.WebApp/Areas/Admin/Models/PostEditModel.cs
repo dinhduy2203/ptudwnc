@@ -30,8 +30,8 @@ namespace TatBlog.WebApp.Areas.Admin.Models
         public string Meta { get; set; }
 
         [DisplayName("Slug")]
-        [Remote("VerifyPostSlug", "Posts", "Admin",
-            HttpMethod = "POST", AdditionalFields = "Id")]
+        [Remote("VerifyPostSlug", "Posts", "Admin", 
+            HttpMethod ="POST", AdditionalFields ="Id")]
         //[Required(ErrorMessage = "URL slug không được để trống")]
         //[MaxLength(200, ErrorMessage = "Slug tối đa 200 ký tự")]
         public string UrlSlug { get; set; }
@@ -63,7 +63,7 @@ namespace TatBlog.WebApp.Areas.Admin.Models
         public List<String> GetSelectedTags()
         {
             return (SelectTags ?? "")
-                .Split(new[] { ',', ';', '\r', '\n' },
+                .Split(new[] {',', ';','\r', '\n'}, 
                 StringSplitOptions.RemoveEmptyEntries)
                 .ToList();
         }

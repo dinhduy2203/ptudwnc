@@ -90,8 +90,8 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
                 ? await _blogRepository.GetPostByIdAsync(id, true)
                 : null;
 
-            var model = post == null ? new PostEditModel()
-                : _mapper.Map<PostEditModel>(post);
+            var model = post == null?new PostEditModel()
+                :_mapper.Map<PostEditModel>(post);
 
             await PopulatePostEditModelAsync(model);
             return View(model);
@@ -106,7 +106,7 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
             {
                 validationResult.AddToModelState(ModelState);
             }
-            if (!ModelState.IsValid)
+            if (!ModelState.IsValid) 
             {
                 await PopulatePostEditModelAsync(model);
                 return View(model);
@@ -114,7 +114,7 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
             var post = model.Id > 0
                 ? await _blogRepository.GetPostByIdAsync(model.Id)
                 : null;
-            if (post == null)
+            if(post == null)
             {
                 post = _mapper.Map<Post>(model);
 
@@ -129,7 +129,7 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
                 post.ModifiedDate = DateTime.Now;
             }
             //neu nguoi dung upload hinh anh minh hoa cho bai viet
-            if (model.ImageFile?.Length > 0)
+            if(model.ImageFile?.Length > 0)
             {
                 //thi thuc hien viec luu tap tin vao thu muc uploads
                 var newImagePath = await _mediaManager.SaveFileAsync(

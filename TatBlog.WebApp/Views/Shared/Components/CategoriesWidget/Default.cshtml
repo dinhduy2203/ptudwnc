@@ -7,10 +7,10 @@
         @foreach (var item in Model)
         {
             <li class="list-group-item">
-                <a asp-controller="Blog" asp-action="Category" title="@item.Description" asp-route-slug="@item.UrlSlug">
-                    
+                <a asp-controller="Blog" asp-action="Category" title="@item.Description">
+                    asp-route-slug="@item.UrlSlug"
                     @item.Name
-                    <span>(@item.PostCount)</span>
+                    <span>(@item. PostCount)</span>
                 </a>
             </li>
         }

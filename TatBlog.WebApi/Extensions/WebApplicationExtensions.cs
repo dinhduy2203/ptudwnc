@@ -34,7 +34,7 @@ namespace TatBlog.WebApi.Extensions
         {
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("TatBlogApp", policyBuilder =>
+                options.AddPolicy("TatBlogApp", policyBuilder => 
                 policyBuilder
                     .AllowAnyOrigin()
                     .AllowAnyHeader()
@@ -55,7 +55,7 @@ namespace TatBlog.WebApi.Extensions
             this WebApplicationBuilder builder)
         {
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerUI();
+            builder.Services.AddSwaggerGen();
 
             return builder;
         }
